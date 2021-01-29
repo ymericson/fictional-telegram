@@ -1,0 +1,150 @@
+body, html {
+    /*
+  The default html interpertation adds margin and padding to the basic elements
+  So it can be logically helpful to remove them from the beginning!
+  */
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* * {
+  border: thin solid grey;
+} */
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.navbar-top {
+  height: 30px;
+  background-color: purple;
+  color: white;
+  margin: 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-bottom {
+  height: 45px;
+  align-items: center;
+}
+
+.about-us {
+  margin-left: 10%;
+}
+
+.phone {
+  margin-right: 10%;
+}
+ul {
+  list-style-type: none;
+  background-color: green;
+  padding-right: 30px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.big-pic {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  background-color: rgb(116, 152, 220);
+  color: white;
+}
+
+img {
+  max-width:100%;
+  max-height:100%;
+}
+
+.row {
+  margin: auto;
+  margin-bottom: 50px;
+  width: 80%;
+  display: flex;
+  justify-content:space-between;
+}
+
+.column {
+  text-align: center;
+  float: left;
+  width: 23%;
+  padding: 5px;
+  color: rgb(58, 58, 58);
+}
+
+.services {
+  margin: auto;
+  margin-top: 59px;
+  width: 80%;
+  text-align: center;
+  color: grey;
+}
+
+footer {
+  height: 5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer p {
+  margin: 15px;
+
+}
+
+.info-row {
+  
+  height: 400px;
+  background-color: rgb(76, 98, 138);
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.info-column {
+  margin: 10px;
+}
+
+
+.services-text {
+  margin-left: 10%;
+  margin-right: 10%;
+  color: grey;
+}
+
+.person {
+  margin: 10% 7% 10% 7%;
+  max-width: 20%;
+}
+
+.services-left {
+  display: flex;
+  align-items: center;
+  height: 240px;
+  color: white;
+}
